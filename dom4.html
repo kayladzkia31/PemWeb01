@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 9.4</title>
+</head>
+<body>
+    <h2>Menghitung Jumlah Dua Bilangan</h2>
+    <form>
+    Masukan Angka : <input type="number" id="angka"  onChange="jumlah()" />
+    <br> 
+    + 
+    Masukan Angka : <input type="number" id="angka1"  onChange="jumlah()" /> 
+    <br> 
+    = 
+    Hasil Penjumlahan : <input type="text" id="hasil" />
+    </form>
+
+
+    <!----- Java Script ----->
+    <script>
+    function sum() {
+        let masukan_angka1 = document.getElementById('angka1').value;
+
+        let masukan_angka2 = document.getElementById('angka2').value;
+
+        let total = parseInt(nilaiangka1) + parseInt(nilaiangka2);
+        if (!isNaN(hasil)) {
+           document.getElementById('hasil').value = hasil;
+        }
+    }
+    </script>
+</body>
+</html>
